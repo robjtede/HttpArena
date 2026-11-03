@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   notify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     # Opt-out for repo-wide sweeps. A change that touches every entry - renaming a
     # profile, retiring an endpoint - is not news to any single maintainer, and the
     # ping is a notification to dozens of people who have nothing to do.

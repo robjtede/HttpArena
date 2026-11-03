@@ -41,7 +41,7 @@ concurrency:
 jobs:
   runner-busy:
     if: vars.RUNNER_LOCAL == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - name: Report runner unavailable
         run: |
